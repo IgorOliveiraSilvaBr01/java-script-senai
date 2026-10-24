@@ -40,3 +40,14 @@ console.log(elseve == true || siage == true);
 let logado = true
 console.log(logado == false);
 console.log(!logado);
+
+// operadores de atribuicao
+let pontos = 10 
+pontos +=5 // atribui 5 a variavel pontos
+pontos -= 5 // subtrai 5 da variavel pontos
+pontos *=5 // multiplica a variavel pelo valor de 5
+pontos /= 5 // faz a divisao da variavel pelo valor de 5
+pontos %= 5 // faz a porcentagem da variavel pelo valor de 5
+
+console.log("--- Operadores de Atribuição --- ");
+console.log(pontos );
