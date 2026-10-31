@@ -55,3 +55,11 @@ function dobrar(n) {
 
 let result = dobrar(3)
 console.log(result);    
+
+// arrow function
+
+const saudacao = () => {
+    console.log("Olá!");
+}
+
+saudacao()
