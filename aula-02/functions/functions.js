@@ -22,6 +22,23 @@
 
 // dizerOla()
 
-function fazerSuco() {
-    console.log("Suco de Laranja");
+// function fazerSuco() {
+//     console.log("Suco de Laranja");
+// }
+
+// function with parameter
+
+fazerSuco()
+
+function fazerSuco(sabor) {
+    console.log(`Fazer suco de ${sabor} com gosto de tamarindo`);
 }
+
+fazerSuco("Uva")
+
+function somar(n1, n2) {
+    let result = n1 + n2
+    console.log(`${n1} + ${n2} = ${result}`);
+}
+
+somar(2, 2)
