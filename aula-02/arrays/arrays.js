@@ -25,3 +25,12 @@
 // frutas.splice(1, 3) // remove os itens da lista, a partir do index 1 e 3 itens(uva, maca e pera )
 // console.log(frutas.length); // mostra a quantidade de elmentos contidos na lista
 
+let nomes = [
+    "Matheus",
+    "Ana",
+    "Igor"
+]
+
+nomes.forEach((elemento) => {
+    console.log(`Bom dia ${elemento}`);
+})
