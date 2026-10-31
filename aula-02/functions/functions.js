@@ -28,17 +28,15 @@
 
 // function with parameter
 
-fazerSuco()
+// function with return
 
-function fazerSuco(sabor) {
-    console.log(`Fazer suco de ${sabor} com gosto de tamarindo`);
+// function nomeDaFuncao() {
+//     return result
+// }
+
+function dobrar(n) {
+    return n * 2
 }
 
-fazerSuco("Uva")
-
-function somar(n1, n2) {
-    let result = n1 + n2
-    console.log(`${n1} + ${n2} = ${result}`);
-}
-
-somar(2, 2)
+let result = dobrar(3)
+console.log(result);    
