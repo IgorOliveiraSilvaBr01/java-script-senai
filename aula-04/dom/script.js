@@ -58,6 +58,14 @@
 //     alert("Você apertou alguma tecla!")
 // })
 
+
+// exercicio #04
 document.addEventListener("keydown", (e) => {
-    alert(e.key)
+    if (e.key == "r") {
+        document.body.style.backgroundColor = "red"
+    } else if (e.key == "a") {
+        document.body.style.backgroundColor = "blue"
+    } else {
+        document.body.style.backgroundColor = "green"
+    }
 })
