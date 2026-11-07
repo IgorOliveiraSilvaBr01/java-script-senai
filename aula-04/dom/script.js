@@ -19,3 +19,12 @@ const title = document.getElementById("title")
 
 title.innerText = "Título Secundário"
 // altera o valor de texto 
+
+// alterando estilos de elementos html com dom
+
+const paragraph = document.getElementById("paragraph")
+// cria uma variavel para o elemento mencionado
+
+paragraph.style.color = "blue" // estiliza a cor de texto do elemento
+paragraph.style.fontSize = "50px" // altera o tamanho da fonte do texto do elemento
+paragraph.style.backgroundColor = "Aqua" // altera a cor de fundo do elemento
