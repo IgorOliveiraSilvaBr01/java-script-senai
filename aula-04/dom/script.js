@@ -29,10 +29,19 @@
 // paragraph.style.fontSize = "50px" // altera o tamanho da fonte do texto do elemento
 // paragraph.style.backgroundColor = "Aqua" // altera a cor de fundo do elemento
 
+// const paragraph = document.getElementById("paragraph")
+// const btn = document.getElementById("btn")
+
+// btn.addEventListener("click", () => {
+//     paragraph.innerText = "Deu bom!",
+//     paragraph.style.color = "blue"
+// })
+// adiciona um evento para o botao
+
+// exercicio #01
 const paragraph = document.getElementById("paragraph")
 const btn = document.getElementById("btn")
 
 btn.addEventListener("click", () => {
-    paragraph.innerText = "Deu bom!"
+    paragraph.innerText = "Texto calvado com sucesso!"
 })
-// adiciona um evento para o botao
