@@ -11,3 +11,11 @@
 // console.log(paragraph02);
 // console.log(paragraph03);
 // console.log(paragraph04);
+
+// alterando valores de texto com dom
+
+const title = document.getElementById("title")
+// cria uma variavel para o elemento chamado
+
+title.innerText = "Título Secundário"
+// altera o valor de texto 
