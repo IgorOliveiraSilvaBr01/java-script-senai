@@ -45,3 +45,10 @@ const btn = document.getElementById("btn")
 btn.addEventListener("click", () => {
     paragraph.innerText = "Texto calvado com sucesso!"
 })
+
+// exercicio #02
+const img = document.getElementById("img")
+
+img.addEventListener("mouseover", () => {
+    img.src = "https://i.pinimg.com/originals/44/81/c5/4481c567cb1aa115a4c1cb1769a5b616.jpg"
+})
