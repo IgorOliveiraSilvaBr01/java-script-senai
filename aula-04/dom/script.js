@@ -39,16 +39,25 @@
 // adiciona um evento para o botao
 
 // exercicio #01
-const paragraph = document.getElementById("paragraph")
-const btn = document.getElementById("btn")
+// const paragraph = document.getElementById("paragraph")
+// const btn = document.getElementById("btn")
 
-btn.addEventListener("click", () => {
-    paragraph.innerText = "Texto calvado com sucesso!"
-})
+// btn.addEventListener("click", () => {
+//     paragraph.innerText = "Texto calvado com sucesso!"
+// })
 
-// exercicio #02
-const img = document.getElementById("img")
+// // exercicio #02
+// const img = document.getElementById("img")
 
-img.addEventListener("mouseover", () => {
-    img.src = "https://i.pinimg.com/originals/44/81/c5/4481c567cb1aa115a4c1cb1769a5b616.jpg"
+// img.addEventListener("mouseover", () => {
+//     img.src = "https://i.pinimg.com/originals/44/81/c5/4481c567cb1aa115a4c1cb1769a5b616.jpg"
+// })
+
+// keydown
+// document.addEventListener("keydown", () => {
+//     alert("Você apertou alguma tecla!")
+// })
+
+document.addEventListener("keydown", (e) => {
+    alert(e.key)
 })
