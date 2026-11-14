@@ -2,7 +2,7 @@ const nome = document.getElementById("name")
 const email = document.getElementById("email")
 const phone = document.getElementById("phone")
 const website = document.getElementById("website")
-const company = document.getElementById("company")
+const company = document.getElementById("company_name")
 
 fetch("https://jsonplaceholder.typicode.com/users")
 
