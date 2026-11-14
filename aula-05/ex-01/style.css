@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    gap: 20px;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 25px;
+    max-width: 250px;
+}
